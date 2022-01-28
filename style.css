@@ -1,0 +1,77 @@
+/* block conteneur */
+.conteneur
+{
+    border: 1px solid black;
+    display: grid;
+    text-align: center;
+}
+
+/* rangee une du conteneur*/
+.rangee_1
+{
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 100px;
+    border: 1px dashed red;
+    background-image: url("/test\ grille/photo/Image20211208133249.jpg");
+    background-size: cover;
+    padding: 200px;    
+}
+
+/* rangee deux du conteneur*/
+.rangee_2
+{
+    border: 1px purple dashed;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 100px repeat(2,250px);
+    
+}
+
+/* rangee trois du conteneur */
+.rangee3
+{
+    border: blueviolet 1px solid;
+    margin: 10px;
+}
+
+/* titre de la deuxieme rangee */
+.titre_rangee_2
+{
+    margin: 10px;
+    border:tomato 1px solid ;
+}
+
+/* ligne des photos et text de la seconde ligne de la seconde rangee */
+.photo_texte_ligne2
+{
+    margin: 10px;
+    border:springgreen 1px dashed;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+}
+
+/* ligne des photos et text de la troisieme ligne de la seconde rangee */
+.photo_texte_ligne3
+{
+    margin: 10px;
+    border:springgreen 1px dashed;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+}
+
+/* separe chaque cellue de la rangee 2 */
+.image_texte
+{
+    margin: 10px;
+    padding:10px;
+    justify-content: center;
+    border:black 1px solid;
+}
+
+/* redimensionner les images */
+#image
+{
+    height: 150px;
+    width: 150px;
+}
